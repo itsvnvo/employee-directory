@@ -1,8 +1,6 @@
-import React from "react";
-import SearchResultContainer from "./components/SearchResultContainer";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-function App() {
-  return <SearchResultContainer />;
-}
 
-export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
